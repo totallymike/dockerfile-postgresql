@@ -4,6 +4,8 @@ DATADIR="/var/lib/postgresql/9.2/main"
 CONF="/etc/postgresql/9.2/main/postgresql.conf"
 POSTGRES="/usr/local/pgsql/bin/postgres"
 INITDB="/usr/local/pgsql/bin/initdb"
+USERNAME=$PG_USERNAME
+PASS=$PG_PASSWORD
 
 # test if DATADIR is existent
 if [ ! -d $DATADIR ]; then
