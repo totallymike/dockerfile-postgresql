@@ -1,5 +1,5 @@
-FROM base:ubuntu-quantal
-MAINTAINER Ullrich Schäfer <ullrich@seidbereit.de>
+FROM base:ubuntu-raring
+MAINTAINER Michael Westbom <michael.westbom@gmail.com>
 
 # Exposes
 EXPOSE 5432
