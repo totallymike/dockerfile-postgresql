@@ -4,14 +4,6 @@ MAINTAINER Ullrich Schäfer <ullrich@seidbereit.de>
 # Exposes
 EXPOSE 5432
 
-# Credentials
-ENV USERNAME docker
-ENV PASS d0cker
-
-# update apt sources to use hetzner mirror
-#RUN echo "deb http://de.archive.ubuntu.com/ubuntu/ quantal main universe multiverse" > /etc/apt/sources.list
-RUN echo "deb ftp://mirror.hetzner.de/ubuntu/packages quantal main restricted universe multiverse" > /etc/apt/sources.list
-
 # Update the package repository
 RUN apt-get update
 
