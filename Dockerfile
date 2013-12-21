@@ -1,4 +1,4 @@
-FROM base:ubuntu-raring
+FROM base:ubuntu-quantal
 MAINTAINER Michael Westbom <michael.westbom@gmail.com>
 
 # Exposes
